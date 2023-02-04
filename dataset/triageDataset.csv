@@ -127,3 +127,43 @@ P126,1:00 AM,Hip Pain,BP: 115/75,27,None,Low
 P127,2:00 AM,Knee Pain,BP: 125/80,25,None,Low
 P128,3:00 AM,Groin Pain,BP: 130/85,26,None,Low
 P129,4:00 AM,Neck Pain,BP: 140/90,24,None,Low
+P130,5:00 AM,Weak Pulse,BP: 250/190,42,None,High
+P131,1:00 PM,Chest pain,BP: 150/100,40,Previous heart attack,Critical
+P132,2:00 PM,Unconsciousness,BP: 80/60,25,None,Critical
+P133,3:00 PM,Seizures,BP: 140/90,35,Epilepsy,Critical
+P134,4:00 PM,Shortness of breath,BP: 130/80,30,Asthma,Critical
+P135,5:00 PM,Severe headache,BP: 160/100,45,Migraines,Critical
+P136,6:00 PM,Paralysis,BP: 90/60,50,Stroke,Critical
+P137,7:00 PM,Heavy bleeding,BP: 70/50,30,None,Critical
+P138,8:00 PM,Loss of vision,BP: 140/90,40,Glaucoma,Critical
+P139,9:00 PM,Loss of speech,BP: 130/80,45,None,Critical
+P140,10:00 PM,Severe burns,BP: 120/70,35,None,Critical
+P141,11:00 PM,Choking,BP: 140/90,30,None,Critical
+P142,12:00 AM,Cardiac arrest,BP: 60/40,40,Previous heart attack,Critical
+P143,1:00 AM,Coma,BP: 80/60,50,None,Critical
+P144,2:00 AM,Heavy bleeding,BP: 70/50,35,None,Critical
+P145,3:00 AM,Severe back pain,BP: 130/80,40,None,Critical
+P146,4:00 AM,Loss of feeling in limbs,BP: 140/90,45,None,Critical
+P147,5:00 AM,Severe headache,BP: 160/100,35,Migraines,Critical
+P148,6:00 AM,Heavy bleeding,BP: 70/50,50,None,Critical
+P149,7:00 AM,Seizures,BP: 140/90,30,Epilepsy,Critical
+P150,10:00 AM,Chest Pain,BP: 170/110,42,Heart Disease,High
+P151,11:00 AM,Unconscious,BP: 80/50,35,None,High
+P152,12:00 PM,Seizures,BP: 90/60,25,Epilepsy,High
+P153,1:00 PM,Heavy Bleeding,BP: 70/40,32,None,High
+P154,2:00 PM,Shortness of breath,BP: 110/80,28,Asthma,High
+P155,3:00 PM,Paralysis,BP: 100/70,45,Stroke,High
+P156,4:00 PM,High Fever,BP: 120/90,30,None,High
+P157,5:00 PM,Difficult Speech,BP: 130/80,40,None,High
+P158,6:00 PM,Head injury,BP: 140/100,37,None,High
+P159,7:00 PM,Loss of Vision,BP: 150/90,24,None,High
+P160,8:00 PM,Abdominal Pain,BP: 160/100,42,Appendicitis,High
+P161,9:00 PM,Rapid Heartbeat,BP: 170/110,33,None,High
+P162,10:00 PM,Fainting,BP: 180/120,39,None,High
+P163,11:00 PM,Unresponsive,BP: 190/130,25,None,High
+P164,12:00 AM,Convulsions,BP: 200/140,30,Epilepsy,High
+P165,1:00 AM,Dehydration,BP: 210/150,45,None,High
+P166,2:00 AM,Uncontrolled movements,BP: 220/160,35,Parkinson's Disease,High
+P167,3:00 AM,Acute Pain,BP: 230/170,30,None,High
+P168,4:00 AM,Loss of Consciousness,BP: 240/180,24,None,High
+P169,5:00 AM,Weak Pulse,BP: 250/190,42,None,High
