@@ -1,0 +1,129 @@
+ID,Arrival Time,Primary Symptom,Vital Signs,Age,Medical History,Level of Urgency
+P001,10:00 AM,Chest Pain,BP: 120/80,35,Hypertension,High
+P002,10:30 AM,Headache,BP: 110/70,25,None,Low
+P003,11:00 AM,Stomach Pain,BP: 130/90,45,Ulcer,Medium
+P004,11:30 AM,Back Pain,BP: 115/75,30,None,Low
+P005,12:00 PM,Toothache,BP: 140/85,20,None,Low
+P006,12:30 PM,Nausea,BP: 135/80,40,None,Low
+P007,1:00 PM,Flu,BP: 125/75,25,None,Low
+P008,1:30 PM,Dizziness,BP: 130/85,35,None,Low
+P009,2:00 PM,Shortness of breath,BP: 145/90,50,Asthma,High
+P010,2:30 PM,Fatigue,BP: 120/75,30,None,Low
+P011,3:00 PM,Ankle Pain,BP: 130/80,40,None,Low
+P012,3:30 PM,Leg Pain,BP: 145/85,50,None,Low
+P013,4:00 PM,Cough,BP: 135/75,30,None,Low
+P014,4:30 PM,Sneezing,BP: 140/80,20,None,Low
+P015,5:00 PM,Fever,BP: 145/90,25,None,Low
+P016,5:30 PM,Sore throat,BP: 130/85,35,None,Low
+P017,6:00 PM,Chest pain,BP: 120/75,40,None,Low
+P018,6:30 PM,Abdominal pain,BP: 145/90,50,None,Low
+P019,7:00 PM,Muscle pain,BP: 135/80,25,None,Low
+P021,9:30 AM,Head injury with unconsciousness,BP: 120/80,25,None,High
+P022,10:15 AM,Sprained ankle,BP: 110/70,32,None,Low
+P023,11:00 AM,Chest pain,BP: 140/90,56,History of heart disease,High
+P024,11:45 AM,Laceration on hand,BP: 130/80,42,None,Medium
+P025,12:30 PM,Vehicle accident with broken bones,BP: 120/70,29,None,High
+P026,1:15 PM,Vehicle accident with internal bleeding,BP: 140/90,35,None,High
+P027,2:00 PM,Vehicle accident with head injury,BP: 130/80,25,None,High
+P028,2:45 PM,Vehicle accident with spinal injury,BP: 120/70,30,None,High
+P029,3:30 PM,Vehicle accident with internal injuries,BP: 140/90,32,None,High
+P030,4:15 PM,Vehicle accident with multiple injuries,BP: 130/80,29,None,High
+P031,5:00 PM,Abdominal pain,BP: 120/70,42,None,Medium
+P032,5:45 PM,Shortness of breath,BP: 140/90,56,History of asthma,High
+P033,6:30 PM,Seizure,BP: 130/80,25,None,High
+P034,7:15 PM,High fever,BP: 120/70,29,None,High
+P035,9:00 AM,Headache,BP: 120/80,25,Migraines,Low
+P036,9:00 AM,Blurred vision,BP: 120/80,25,Family history of diabetes,Low
+P037,11:00 AM,Chest pain,BP: 130/90,42,Previous heart attack,High
+P038,12:00 PM,Abdominal pain,BP: 110/75,32,None,Moderate
+P039,2:00 PM,Headache,BP: 140/85,28,Migraines,Low
+P040,3:00 PM,Shortness of breath,BP: 150/95,60,Asthma,High
+P041,4:00 PM,Nausea and vomiting,BP: 115/80,36,None,Low
+P042,5:00 PM,Leg pain,BP: 130/90,48,Arthritis,Moderate
+P043,6:00 PM,Back pain,BP: 140/85,35,None,Low
+P044,7:00 PM,Dizziness,BP: 120/80,42,None,Low
+P045,8:00 PM,Fatigue,BP: 135/85,30,Anemia,Low
+P046,9:00 PM,Muscle weakness,BP: 145/90,50,None,Moderate
+P047,10:00 PM,Fever,BP: 115/75,32,None,High
+P048,11:00 PM,Cough,BP: 140/85,28,None,Low
+P049,12:00 AM,Sore throat,BP: 145/90,36,None,Low
+P050,1:00 AM,Loss of appetite,BP: 130/85,42,None,Low
+P051,2:00 AM,Rash,BP: 140/90,30,None,Low
+P052,3:00 AM,Joint pain,BP: 145/85,50,None,Moderate
+P053,4:00 AM,Night sweats,BP: 120/80,32,None,High
+P054,5:00 AM,Body aches,BP: 140/85,28,None,Moderate
+P055,10:00 AM,Malaria symptoms,BP: 120/80,27,None,High
+P056,11:00 AM,Diarrhea,BP: 110/70,32,None,Medium
+P057,12:00 PM,Fractured limb,BP: 130/75,40,None,High
+P058,1:00 PM,Tuberculosis,BP: 115/65,52,None,High
+P059,2:00 PM,Respiratory illness,BP: 120/70,45,None,Medium
+P060,3:00 PM,Malnutrition,BP: 118/68,30,None,High
+P061,4:00 PM,Dengue Fever,BP: 126/73,37,None,High
+P062,5:00 PM,Cholera,BP: 130/75,25,None,High
+P063,6:00 PM,Maternal care,BP: 125/72,30,None,High
+P064,7:00 PM,Malaria symptoms,BP: 140/80,45,None,High
+P065,8:00 PM,Tuberculosis,BP: 130/75,30,None,High
+P066,9:00 PM,Fractured limb,BP: 135/75,37,None,High
+P067,10:00 PM,Malnutrition,BP: 128/68,42,None,High
+P068,11:00 PM,Respiratory illness,BP: 120/70,25,None,Medium
+P069,12:00 AM,Cholera,BP: 126/73,32,None,High
+P070,1:00 AM,Maternal care,BP: 125/72,35,None,High
+P071,2:00 AM,Diarrhea,BP: 118/68,40,None,Medium
+P072,3:00 AM,Malaria symptoms,BP: 140/80,45,None,High
+P073,4:00 AM,Tuberculosis,BP: 130/75,30,None,High
+P074,5:00 AM,Fractured limb,BP: 135/75,37,None,High
+P075,10:00 AM,Fever,BP: 110/70,7,None,High
+P076,11:00 AM,Ear Pain,BP: 115/75,5,None,Medium
+P077,12:00 PM,Stomach Pain,BP: 120/80,8,None,Medium
+P078,1:00 PM,Cough,BP: 110/70,6,None,Low
+P079,2:00 PM,Rash,BP: 115/75,7,None,Low
+P080,3:00 PM,Headache,BP: 120/80,9,None,Low
+P081,4:00 PM,Vomiting,BP: 110/70,10,None,Medium
+P082,5:00 PM,Diarrhea,BP: 115/75,8,None,Medium
+P083,6:00 PM,Limp,BP: 120/80,7,None,High
+P084,7:00 PM,Breathing Difficulty,BP: 110/70,5,None,High
+P085,8:00 PM,Chest Pain,BP: 115/75,6,None,High
+P086,9:00 PM,Sore Throat,BP: 120/80,8,None,Medium
+P087,10:00 PM,Runny Nose,BP: 110/70,9,None,Low
+P088,11:00 PM,Abdominal Pain,BP: 115/75,7,None,Medium
+P089,12:00 AM,Red Eye,BP: 120/80,10,None,Low
+P090,1:00 AM,Sneezing,BP: 110/70,9,None,Low
+P091,2:00 AM,Dizziness,BP: 115/75,7,None,Low
+P092,3:00 AM,Fatigue,BP: 120/80,6,None,Low
+P093,4:00 AM,Nausea,BP: 110/70,8,None,Low
+P094,5:00 AM,Muscle Pain,BP: 115/75,10,None,Low
+P095,9:00 AM,Chest pain,BP: 145/90,85,History of heart disease,High
+P096,10:30 AM,Dizziness and weakness,BP: 140/80,75,High blood pressure,Medium
+P097,11:45 AM,Falls with multiple injuries,BP: 130/70,80,Arthritis,High
+P098,12:30 PM,Severe abdominal pain,BP: 120/75,87,Appendectomy,High
+P099,1:15 PM,Chest tightness and shortness of breath,BP: 150/85,79,History of COPD,High
+P100,2:00 PM,Fainting,BP: 140/90,83,Heart bypass surgery,High
+P101,2:45 PM,Extreme fatigue and muscle weakness,BP: 145/85,74,Hypothyroidism,Medium
+P102,3:30 PM,Swelling in the legs and feet,BP: 140/80,82,Varicose veins,High
+P103,4:15 PM,Difficulty speaking and difficulty moving,BP: 135/75,78,Stroke history,High
+P104,5:00 PM,Constipation and abdominal pain,BP: 130/70,76,Colon surgery,Medium
+P105,5:45 PM,Numbness in one hand and facial droop,BP: 145/90,81,Carotid artery stenosis,High
+P106,6:30 PM,Severe headache and blurred vision,BP: 140/80,75,History of migraines,High
+P107,7:15 PM,Pain in the lower back and leg,BP: 145/85,84,Spinal stenosis,High
+P108,8:00 PM,Confusion and disorientation,BP: 130/70,80,Alzheimer's disease,High
+P109,8:45 PM,Nausea and vomiting,BP: 140/90,77,Peptic ulcer disease,Medium
+P110,9:30 PM,Difficulty walking and joint pain,BP: 145/85,82,Osteoarthritis,High
+P111,10:30 AM,Stomach Pain,BP: 130/85,22,None,Medium
+P112,11:00 AM,Back Pain,BP: 115/75,27,None,Low
+P113,12:00 PM,Nausea,BP: 125/80,24,None,Low
+P114,1:00 PM,Dizziness,BP: 140/90,23,None,Medium
+P115,2:00 PM,Fatigue,BP: 130/80,26,None,Low
+P116,3:00 PM,Chest Pain,BP: 145/85,25,None,High
+P117,4:00 PM,Shortness of Breath,BP: 120/75,24,None,High
+P118,5:00 PM,Arm Pain,BP: 135/80,27,None,Medium
+P119,6:00 PM,Foot Pain,BP: 125/75,25,None,Low
+P120,7:00 PM,Muscle Pain,BP: 130/80,26,None,Low
+P121,8:00 PM,Leg Pain,BP: 140/85,24,None,Low
+P122,9:00 PM,Ankle Pain,BP: 115/75,27,None,Low
+P123,10:00 PM,Wrist Pain,BP: 125/80,25,None,Low
+P124,11:00 PM,Elbow Pain,BP: 130/85,26,None,Low
+P125,12:00 AM,Shoulder Pain,BP: 140/90,24,None,Low
+P126,1:00 AM,Hip Pain,BP: 115/75,27,None,Low
+P127,2:00 AM,Knee Pain,BP: 125/80,25,None,Low
+P128,3:00 AM,Groin Pain,BP: 130/85,26,None,Low
+P129,4:00 AM,Neck Pain,BP: 140/90,24,None,Low
