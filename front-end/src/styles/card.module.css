@@ -1,0 +1,35 @@
+.card {
+  position: relative;
+  margin-top: 56px;
+  display: flex;
+  background-color: #3083ff;
+  border-radius: 10px;
+  align-items: center;
+  color: #f1f1f1;
+  padding: 10px;
+}
+.col1 {
+  width: 42%;
+}
+.col1 img {
+  position: absolute;
+  width: 71%;
+  height: 200px;
+  top: -63px;
+  bottom: 0;
+  left: -43px;
+  object-position: top;
+  object-fit: cover;
+  filter: drop-shadow(-7px 0px 6px #555);
+}
+.col2 {
+  width: 68%;
+}
+.col2 p {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.col2 span {
+  line-height: 24px;
+  font-size: 12px;
+}
