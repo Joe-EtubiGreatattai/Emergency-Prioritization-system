@@ -1,4 +1,4 @@
-ID,Arrival Time,Primary Symptom,Vital Signs,Age,Medical History,Level of Urgency
+ID,Arrival Time,Primary-Symptom,Vital Signs,Age,Medical History,Level of Urgency
 P001,10:00 AM,Chest Pain,BP: 120/80,35,Hypertension,High
 P002,10:30 AM,Headache,BP: 110/70,25,None,Low
 P003,11:00 AM,Stomach Pain,BP: 130/90,45,Ulcer,Medium
