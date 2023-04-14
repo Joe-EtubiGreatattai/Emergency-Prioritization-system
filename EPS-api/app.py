@@ -60,6 +60,75 @@ def predict():
     #      print ('Train the model first')
     # return ('No model here to use')
 
+@app.route('/rank', methods=['GET'])
+def predict():
+    
+    ds = joblib.load("model/model1.pkl") # Load "model.pkl"
+    print ('Model loaded')
+    model_columns = joblib.load("model/model_columns1.pkl") # Load "model_columns.pkl"
+    print ('Model columns loaded')
+    json_=request.get_data()  
+            # print(model_columns) 
+    json_=json.loads(json_)          
+    print(json_)
+    query = pd.get_dummies(pd.DataFrame(json_, index=list(0)))
+    print(query)
+       
+    query = query.reindex(columns=model_columns, fill_value=0)
+    print(query)
+
+    prediction = list(ds.predict(query))
+
+    return jsonify({'prediction': str(prediction)})
+
+
+@app.route('/search', methods=['GET'])
+def predict():
+    
+    ds = joblib.load("model/model1.pkl") # Load "model.pkl"
+    print ('Model loaded')
+    model_columns = joblib.load("model/model_columns1.pkl") # Load "model_columns.pkl"
+    print ('Model columns loaded')
+    json_=request.get_data()  
+            # print(model_columns) 
+    json_=json.loads(json_)          
+    print(json_)
+    query = pd.get_dummies(pd.DataFrame(json_, index=list(0)))
+    print(query)
+       
+    query = query.reindex(columns=model_columns, fill_value=0)
+    print(query)
+
+    prediction = list(ds.predict(query))
+
+    return jsonify({'prediction': str(prediction)})
+      
+  
+
+@app.route('/uploadpatients', methods=['POST'])
+def upload_file():
+    uploaded_file = request.files['file']
+    filename = uploaded_file.filename
+    file_path = os.path.join('data', filename)
+    if os.path.exists(file_path):
+        # generate a new filename by appending a timestamp
+        timestamp = str(int(time.time()))
+        new_filename = f"{os.path.splitext(filename)[0]}_{timestamp}{os.path.splitext(filename)[1]}"
+        os.rename(file_path, os.path.join('data', new_filename))
+    response= uploaded_file.save(file_path)
+    # return 'File uploaded successfully!'
+    # You can add the test cases you made in the previous function, but in our case here you are just testing the POST functionality
+    if response:
+        return jsonify({
+           
+            "Message": "uploaded sucesefully!",
+            # Add this option to distinct the POST request
+            "METHOD": "POST"
+        })
+    else:
+        return jsonify({
+            "ERROR": "not uploaded"
+        })
 
 @app.route('/uploadmodel', methods=['POST'])
 def upload_file():
@@ -90,7 +159,7 @@ def upload_file():
 @app.route('/')
 def index():
     # A welcome message to test our server
-    return "<h1>Welcome To Eps API!</h1>"
+    return "<h1>Welcome To TRIAGE API!</h1>"
 
 
 if __name__ == '__main__':
