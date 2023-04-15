@@ -1,0 +1,7 @@
+python -m venv venv/
+venv\Scripts\activate
+pip3 install gunicun
+in .gitignore add
+  /vanv
+  create ypur app.py
+  pip3 freeze > requirements.txt
