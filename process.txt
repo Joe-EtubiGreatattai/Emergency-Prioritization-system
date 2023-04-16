@@ -1,7 +1,8 @@
 python -m venv venv/
 venv\Scripts\activate
-pip3 install gunicun
+pip3 install gunicorn
 in .gitignore add
   /venv
-  create ypur app.py
-  pip3 freeze > requirements.txt
+install all stuffs you imported im your venv
+py app.py
+pip3 freeze > requirements.txt

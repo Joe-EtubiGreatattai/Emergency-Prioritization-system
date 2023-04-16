@@ -10,15 +10,16 @@ import pandas as pd
 from sklearn.tree import DecisionTreeClassifier 
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
+from pytime import time
 
 
 app = Flask(__name__)
 CORS(app)
 
 @app.route('/rank', methods=['GET'])
-def predict():
+def rank():
     
-    ds = joblib.load("model/model1.pkl") # Load "model.pkl"
+    ds = joblib.load("model/model.pkl") # Load "model.pkl"
     print ('Model loaded')
     model_columns = joblib.load("data/data.pkl") # Load "model_columns.pkl"
     print ('Model columns loaded')
@@ -34,12 +35,11 @@ def predict():
     print(query)
 
     prediction = list(ds.predict(query))
-
     return jsonify({'prediction': str(prediction)})
 
 
 @app.route('/search', methods=['GET'])
-def predict():
+def search():
     patient = request.args.get('patient')
     ds = joblib.load("model/model1.pkl") # Load "model.pkl"
     print ('Model loaded')
@@ -62,7 +62,7 @@ def predict():
   
 
 @app.route('/uploadpatients', methods=['POST'])
-def upload_file():
+def uploadPatients():
     uploaded_file = request.files['file']
     filename = uploaded_file.filename
     file_path = os.path.join('data', filename)
@@ -87,7 +87,7 @@ def upload_file():
         })
 
 @app.route('/uploadmodel', methods=['POST'])
-def upload_file():
+def upload_model():
     uploaded_file = request.files['file']
     filename = uploaded_file.filename
     file_path = os.path.join('model', filename)
