@@ -10,7 +10,8 @@ import pandas as pd
 from sklearn.tree import DecisionTreeClassifier 
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
-from pytime import time
+# from pytime 
+import time
 
 
 app = Flask(__name__)
@@ -120,8 +121,7 @@ def index():
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
-    if not os.path.exists('uploads'):
-        os.makedirs('uploads')
+    
     
     port = 12345 
     # If you don't provide any port the port will be set to 12345
