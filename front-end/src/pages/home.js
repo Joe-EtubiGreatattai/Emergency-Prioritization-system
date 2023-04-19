@@ -8,6 +8,7 @@ import { ProfileImage } from "../components/profileImg";
 import { Searchinput } from "../components/searchInput";
 import { User } from "../components/user";
 import { MedicalCross } from "../svg";
+import { getLocation } from "../utils/functions/location";
 // import profileImg from "";
 
 class Home extends Component {
@@ -15,6 +16,11 @@ class Home extends Component {
     showNotification: false,
     openForm: false,
   };
+
+  componentDidMount() {
+    getLocation();
+  }
+
   render() {
     return (
       <div className="container">

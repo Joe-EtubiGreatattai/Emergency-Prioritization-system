@@ -3,18 +3,35 @@ import style from "../styles/form.module.css";
 import { UserMedical } from "../svg";
 import { useState } from "react";
 
-export const AppointmentForm = () => {
+export const AppointmentForm = ({ handleFormSubmit }) => {
   const [vitalSigns, setVitalSigns] = useState("");
   const [age, setAge] = useState("");
   const [primarySymptom, setPrimarySyptom] = useState("");
   const [medHistory, setMedHistory] = useState("");
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    const date = new Date();
+
+    handleFormSubmit({
+      "Vital Signs": vitalSigns,
+      Age: age,
+      "Primary-Symptom": primarySymptom,
+      "Medical History": medHistory,
+      "Arrival Time": date.toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit",
+      }),
+    });
+  }
+
   return (
     <div className={style.formContainer}>
       <div>
         <UserMedical height={50} width={50} />
         <p>Fill the form correctly for better result</p>
       </div>
-      <form>
+      <form onSubmit={(e) => handleSubmit(e)}>
         <InputField
           type="text"
           label="Primary symptoms"
